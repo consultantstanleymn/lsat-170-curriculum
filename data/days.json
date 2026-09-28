@@ -404,7 +404,7 @@
     "archetype": "A",
     "section": "MIXED",
     "load": "normal",
-    "detailed": false
+    "detailed": true
   },
   {
     "day": 38,
@@ -415,7 +415,7 @@
     "archetype": "A",
     "section": "MIXED",
     "load": "normal",
-    "detailed": false
+    "detailed": true
   },
   {
     "day": 39,
@@ -426,7 +426,7 @@
     "archetype": "A",
     "section": "MIXED",
     "load": "normal",
-    "detailed": false
+    "detailed": true
   },
   {
     "day": 40,
@@ -437,7 +437,7 @@
     "archetype": "B",
     "section": "MIXED",
     "load": "normal",
-    "detailed": false
+    "detailed": true
   },
   {
     "day": 41,
@@ -448,7 +448,7 @@
     "archetype": "A",
     "section": "MIXED",
     "load": "normal",
-    "detailed": false
+    "detailed": true
   },
   {
     "day": 42,
@@ -459,7 +459,7 @@
     "archetype": "C",
     "section": "MIXED",
     "load": "normal",
-    "detailed": false
+    "detailed": true
   },
   {
     "day": 43,
@@ -470,7 +470,7 @@
     "archetype": "A",
     "section": "MIXED",
     "load": "normal",
-    "detailed": false
+    "detailed": true
   },
   {
     "day": 44,
@@ -481,7 +481,7 @@
     "archetype": "A",
     "section": "MIXED",
     "load": "normal",
-    "detailed": false
+    "detailed": true
   },
   {
     "day": 45,
@@ -492,7 +492,7 @@
     "archetype": "A",
     "section": "MIXED",
     "load": "normal",
-    "detailed": false
+    "detailed": true
   },
   {
     "day": 46,
@@ -503,7 +503,7 @@
     "archetype": "B",
     "section": "MIXED",
     "load": "normal",
-    "detailed": false
+    "detailed": true
   },
   {
     "day": 47,
@@ -514,7 +514,7 @@
     "archetype": "A",
     "section": "MIXED",
     "load": "normal",
-    "detailed": false
+    "detailed": true
   },
   {
     "day": 48,
@@ -525,7 +525,7 @@
     "archetype": "D",
     "section": "MIXED",
     "load": "normal",
-    "detailed": false
+    "detailed": true
   },
   {
     "day": 49,
@@ -536,7 +536,7 @@
     "archetype": "E",
     "section": "MIXED",
     "load": "light",
-    "detailed": false
+    "detailed": true
   },
   {
     "day": 50,
@@ -547,7 +547,7 @@
     "archetype": "A",
     "section": "MIXED",
     "load": "light",
-    "detailed": false
+    "detailed": true
   },
   {
     "day": 51,
@@ -558,7 +558,7 @@
     "archetype": "A",
     "section": "MIXED",
     "load": "light",
-    "detailed": false
+    "detailed": true
   },
   {
     "day": 52,
@@ -569,7 +569,7 @@
     "archetype": "B",
     "section": "MIXED",
     "load": "light",
-    "detailed": false
+    "detailed": true
   },
   {
     "day": 53,
@@ -580,7 +580,7 @@
     "archetype": "A",
     "section": "MIXED",
     "load": "light",
-    "detailed": false
+    "detailed": true
   },
   {
     "day": 54,
@@ -591,7 +591,7 @@
     "archetype": "C",
     "section": "MIXED",
     "load": "light",
-    "detailed": false
+    "detailed": true
   },
   {
     "day": 55,
@@ -602,7 +602,7 @@
     "archetype": "A",
     "section": "MIXED",
     "load": "normal",
-    "detailed": false
+    "detailed": true
   },
   {
     "day": 56,
@@ -613,7 +613,7 @@
     "archetype": "A",
     "section": "MIXED",
     "load": "normal",
-    "detailed": false
+    "detailed": true
   },
   {
     "day": 57,
@@ -624,7 +624,7 @@
     "archetype": "A",
     "section": "MIXED",
     "load": "normal",
-    "detailed": false
+    "detailed": true
   },
   {
     "day": 58,
@@ -635,7 +635,7 @@
     "archetype": "B",
     "section": "MIXED",
     "load": "normal",
-    "detailed": false
+    "detailed": true
   },
   {
     "day": 59,
@@ -646,7 +646,7 @@
     "archetype": "A",
     "section": "MIXED",
     "load": "normal",
-    "detailed": false
+    "detailed": true
   },
   {
     "day": 60,
@@ -657,7 +657,7 @@
     "archetype": "C",
     "section": "MIXED",
     "load": "normal",
-    "detailed": false
+    "detailed": true
   },
   {
     "day": 61,
@@ -668,7 +668,7 @@
     "archetype": "A",
     "section": "MIXED",
     "load": "normal",
-    "detailed": false
+    "detailed": true
   },
   {
     "day": 62,
@@ -679,7 +679,7 @@
     "archetype": "A",
     "section": "MIXED",
     "load": "normal",
-    "detailed": false
+    "detailed": true
   },
   {
     "day": 63,
@@ -690,7 +690,7 @@
     "archetype": "A",
     "section": "MIXED",
     "load": "normal",
-    "detailed": false
+    "detailed": true
   },
   {
     "day": 64,
@@ -701,7 +701,7 @@
     "archetype": "B",
     "section": "MIXED",
     "load": "normal",
-    "detailed": false
+    "detailed": true
   },
   {
     "day": 65,
@@ -712,7 +712,7 @@
     "archetype": "A",
     "section": "MIXED",
     "load": "normal",
-    "detailed": false
+    "detailed": true
   },
   {
     "day": 66,
@@ -723,7 +723,7 @@
     "archetype": "C",
     "section": "MIXED",
     "load": "normal",
-    "detailed": false
+    "detailed": true
   },
   {
     "day": 67,
@@ -734,7 +734,7 @@
     "archetype": "A",
     "section": "MIXED",
     "load": "normal",
-    "detailed": false
+    "detailed": true
   },
   {
     "day": 68,
@@ -745,7 +745,7 @@
     "archetype": "E",
     "section": "MIXED",
     "load": "normal",
-    "detailed": false
+    "detailed": true
   },
   {
     "day": 69,
@@ -756,7 +756,7 @@
     "archetype": "A",
     "section": "MIXED",
     "load": "normal",
-    "detailed": false
+    "detailed": true
   },
   {
     "day": 70,
@@ -767,7 +767,7 @@
     "archetype": "B",
     "section": "MIXED",
     "load": "normal",
-    "detailed": false
+    "detailed": true
   },
   {
     "day": 71,
@@ -778,7 +778,7 @@
     "archetype": "F",
     "section": "MIXED",
     "load": "normal",
-    "detailed": false
+    "detailed": true
   },
   {
     "day": 72,
@@ -789,7 +789,7 @@
     "archetype": "D",
     "section": "MIXED",
     "load": "normal",
-    "detailed": false
+    "detailed": true
   },
   {
     "day": 73,
