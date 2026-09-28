@@ -1,0 +1,14 @@
+{
+  "_comment": "Filled in on Day 1 from the real LawHub library. Do not invent PT numbers before then — this stub only lists the publicly known free tests as placeholders.",
+  "diagnostic": ["PT140", "PT141"],
+  "fullReserve": [],
+  "timedSections": [],
+  "drill": [],
+  "knownFree": ["PT140", "PT141", "PT157", "PT158"],
+  "rules": [
+    "Reference sections by type ordinal (e.g. 'PT143, LR-2'), never by raw section number.",
+    "Never drill from old printed PT 19-94 books alongside PT 101-158 — they overlap and will duplicate content.",
+    "fullReserve tests are touched only on their assigned D day.",
+    "drill tier draws first from LawHub 'Additional Practice' sets (built from tests with no PT101-158 overlap) before breaking any full test into sections."
+  ]
+}
