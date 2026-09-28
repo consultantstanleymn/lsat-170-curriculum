@@ -1192,3 +1192,8 @@ header.topbar::after {
   header.topbar::after { animation: none; }
   .btn-green { animation: none; }
 }
+
+/* ---- Tactile press feedback (apple-design: respond on press, not release) ---- */
+.btn:active { transform: scale(0.96); transition-duration: 90ms; }
+.card:active, .scenario-card:active { transform: translateY(-1px) scale(0.99); transition-duration: 90ms; }
+.nav-link:active { transform: scale(0.98); }
