@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Day 115: PrepTest #2 Blind Review &amp; Error Log — LSAT 170 Curriculum</title>
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand-group">
+    <a href="../index.html" class="brand-logo">LSAT 170</a>
+    <div class="brand-title">Day 115 of 168 &middot; Week 20</div>
+  </div>
+  <button class="mobile-nav-toggle" onclick="toggleTopLinks()">Menu</button>
+  <div class="top-links">
+    <a href="../index.html">&larr; Full Curriculum</a>
+    <a href="https://github.com/consultantstanleymn/lsat-170-curriculum" target="_blank">GitHub &rarr;</a>
+  </div>
+</header>
+<div class="app-container">
+  <button class="sidebar-toggle btn btn-outline" onclick="toggleSidebar()">All 168 days</button>
+  <aside class="sidebar" id="sidebar">
+    <div class="search-box"><input type="text" id="navSearch" class="search-input" placeholder="Search days..." onkeyup="filterNav()"></div>
+    <div class="nav-section-title">Week 1</div>
+    <a href="day-001.html" class="nav-link" data-day="1">Day 1: Orientation: The Current LSAT, the 170 Target &amp; How This Plan Works</a>
+    <a href="day-002.html" class="nav-link" data-day="2">Day 2: Argument Anatomy: Premises, Conclusions &amp; Indicator Words</a>
+    <a href="day-003.html" class="nav-link" data-day="3">Day 3: How LSAT Passages Are Built: Structure, Viewpoints &amp; the Author</a>
+    <a href="day-004.html" class="nav-link" data-day="4">Day 4: Conditional Reasoning I: Sufficient vs Necessary &amp; the Contrapositive</a>
+    <a href="day-005.html" class="nav-link" data-day="5">Day 5: The LR Question-Type Map: Reading the Stem First</a>
+    <a href="day-006.html" class="nav-link" data-day="6">Day 6: Diagnostic PrepTest: Full, Timed, Four Sections</a>
+    <div class="nav-section-title">Week 2</div>
+    <a href="day-007.html" class="nav-link" data-day="7">Day 7: Diagnostic Blind Review &amp; Seeding the Error Log</a>
+    <a href="day-008.html" class="nav-link" data-day="8">Day 8: Conditional Reasoning II: "Unless," "Only If," Quantifiers &amp; Chains</a>
+    <a href="day-009.html" class="nav-link" data-day="9">Day 9: Causal Reasoning: Correlation, Alternate Causes &amp; Reversal</a>
+    <a href="day-010.html" class="nav-link" data-day="10">Day 10: RC Reading for Structure: Paragraph Roles &amp; the Passage Map</a>
+    <a href="day-011.html" class="nav-link" data-day="11">Day 11: Main Point / Main Conclusion Questions</a>
+    <a href="day-012.html" class="nav-link" data-day="12">Day 12: Week 2 Synthesis: Foundations Mixed Drill &amp; First Timing Baseline</a>
+    <div class="nav-section-title">Week 3</div>
+    <a href="day-013.html" class="nav-link" data-day="13">Day 13: Role of a Statement (Argument Part) Questions</a>
+    <a href="day-014.html" class="nav-link" data-day="14">Day 14: Assumptions: Finding the Gap Between Premises and Conclusion</a>
+    <a href="day-015.html" class="nav-link" data-day="15">Day 15: RC Viewpoints, Author's Attitude &amp; Tone Words</a>
+    <a href="day-016.html" class="nav-link" data-day="16">Day 16: Answer-Choice Elimination: Contenders, Losers &amp; Reading All Five</a>
+    <a href="day-017.html" class="nav-link" data-day="17">Day 17: Score Targets, the DC School List v1 &amp; the Merit-Scholarship Math</a>
+    <a href="day-018.html" class="nav-link" data-day="18">Day 18: Phase 1 Close: First Timed LR Section + Mixed Review</a>
+    <div class="nav-section-title">Week 4</div>
+    <a href="day-019.html" class="nav-link" data-day="19">Day 19: Method of Reasoning (Describe the Argument)</a>
+    <a href="day-020.html" class="nav-link" data-day="20">Day 20: Flaw I: The Flaw Vocabulary &amp; Causal Flaws</a>
+    <a href="day-021.html" class="nav-link" data-day="21">Day 21: Flaw II: Sampling, Representativeness &amp; Statistical Flaws</a>
+    <a href="day-022.html" class="nav-link" data-day="22">Day 22: RC Maintenance: Main Point &amp; Primary Purpose Questions</a>
+    <a href="day-023.html" class="nav-link" data-day="23">Day 23: Flaw III: Conditional Flaws, Mistaken Reversal &amp; Negation</a>
+    <a href="day-024.html" class="nav-link" data-day="24">Day 24: Week 4 Synthesis: The Describe Family (Main Point, Role, Method, Flaw)</a>
+    <div class="nav-section-title">Week 5</div>
+    <a href="day-025.html" class="nav-link" data-day="25">Day 25: Flaw IV: Equivocation, Part–Whole, Ad Hominem &amp; Appeals</a>
+    <a href="day-026.html" class="nav-link" data-day="26">Day 26: Flaw V: Numbers vs Percentages, Absence of Evidence, False Choice &amp; Circularity</a>
+    <a href="day-027.html" class="nav-link" data-day="27">Day 27: Necessary Assumption I: The Negation Test</a>
+    <a href="day-028.html" class="nav-link" data-day="28">Day 28: RC Maintenance: Detail &amp; Specific-Reference Questions</a>
+    <a href="day-029.html" class="nav-link" data-day="29">Day 29: Necessary Assumption II: Defender Assumptions &amp; "Takes for Granted"</a>
+    <a href="day-030.html" class="nav-link" data-day="30">Day 30: Week 5 Synthesis: Flaw vs Necessary Assumption</a>
+    <div class="nav-section-title">Week 6</div>
+    <a href="day-031.html" class="nav-link" data-day="31">Day 31: Sufficient Assumption I: Bridging the Gap</a>
+    <a href="day-032.html" class="nav-link" data-day="32">Day 32: Sufficient Assumption II: Formal Chains &amp; "Justify the Conclusion"</a>
+    <a href="day-033.html" class="nav-link" data-day="33">Day 33: Strengthen I: Closing the Gap From the Other Side</a>
+    <a href="day-034.html" class="nav-link" data-day="34">Day 34: RC Maintenance: Inference Questions in RC</a>
+    <a href="day-035.html" class="nav-link" data-day="35">Day 35: Strengthen II: Causal Arguments, Plans &amp; Strengthen-EXCEPT</a>
+    <a href="day-036.html" class="nav-link" data-day="36">Day 36: Week 6 Synthesis: The Assumption Family (NA, SA, Strengthen)</a>
+    <div class="nav-section-title">Week 7</div>
+    <a href="day-037.html" class="nav-link" data-day="37">Day 37: Weaken I: Attacking the Gap</a>
+    <a href="day-038.html" class="nav-link" data-day="38">Day 38: Weaken II: Causal Alternatives, Plans &amp; Weaken-EXCEPT</a>
+    <a href="day-039.html" class="nav-link" data-day="39">Day 39: Evaluate the Argument: The Variance Test</a>
+    <a href="day-040.html" class="nav-link" data-day="40">Day 40: RC Maintenance: Function &amp; "Why Does the Author Mention…" Questions</a>
+    <a href="day-041.html" class="nav-link" data-day="41">Day 41: Resolve / Explain the Paradox</a>
+    <a href="day-042.html" class="nav-link" data-day="42">Day 42: Week 7 Synthesis: Strengthen vs Weaken vs Evaluate vs Paradox</a>
+    <div class="nav-section-title">Week 8</div>
+    <a href="day-043.html" class="nav-link" data-day="43">Day 43: Must Be True / Inference I: Staying Inside the Stimulus</a>
+    <a href="day-044.html" class="nav-link" data-day="44">Day 44: Most Strongly Supported: Soft Inference &amp; Strength of Language</a>
+    <a href="day-045.html" class="nav-link" data-day="45">Day 45: Must Be True II: Formal-Logic Inferences (Conditionals &amp; Quantifiers)</a>
+    <a href="day-046.html" class="nav-link" data-day="46">Day 46: RC Maintenance: Comparative Passages, an Introduction</a>
+    <a href="day-047.html" class="nav-link" data-day="47">Day 47: Must Be False / Cannot Be True</a>
+    <a href="day-048.html" class="nav-link" data-day="48">Day 48: Mid-Phase Checkpoint: Two Timed LR Sections</a>
+    <div class="nav-section-title">Week 9</div>
+    <a href="day-049.html" class="nav-link" data-day="49">Day 49: Checkpoint Review: Blind Review &amp; Accuracy-by-Type Audit</a>
+    <a href="day-050.html" class="nav-link" data-day="50">Day 50: Point at Issue (Disagreement) Questions</a>
+    <a href="day-051.html" class="nav-link" data-day="51">Day 51: Point of Agreement &amp; Two-Speaker Dialogue Stimuli</a>
+    <a href="day-052.html" class="nav-link" data-day="52">Day 52: RC Maintenance: One Timed Passage + Review (Thanksgiving, light)</a>
+    <a href="day-053.html" class="nav-link" data-day="53">Day 53: Principle I: Identify the Principle (Conform / Justify)</a>
+    <a href="day-054.html" class="nav-link" data-day="54">Day 54: Week 9 Synthesis: Inference Family + Dialogues (light)</a>
+    <div class="nav-section-title">Week 10</div>
+    <a href="day-055.html" class="nav-link" data-day="55">Day 55: Principle II: Apply the Principle</a>
+    <a href="day-056.html" class="nav-link" data-day="56">Day 56: Parallel Reasoning I: Matching Argument Structure</a>
+    <a href="day-057.html" class="nav-link" data-day="57">Day 57: Parallel Reasoning II: Formal / Conditional Parallel</a>
+    <a href="day-058.html" class="nav-link" data-day="58">Day 58: RC Maintenance: Science Passages</a>
+    <a href="day-059.html" class="nav-link" data-day="59">Day 59: Parallel Flaw</a>
+    <a href="day-060.html" class="nav-link" data-day="60">Day 60: Week 10 Synthesis: The Principle &amp; Parallel Family</a>
+    <div class="nav-section-title">Week 11</div>
+    <a href="day-061.html" class="nav-link" data-day="61">Day 61: Advanced Conditional Logic: Nested, "No…Unless" &amp; Hidden Conditionals</a>
+    <a href="day-062.html" class="nav-link" data-day="62">Day 62: Advanced Causal Reasoning Across Question Types</a>
+    <a href="day-063.html" class="nav-link" data-day="63">Day 63: EXCEPT / LEAST Questions &amp; Stem Traps Across Types</a>
+    <a href="day-064.html" class="nav-link" data-day="64">Day 64: RC Maintenance: Law Passages</a>
+    <a href="day-065.html" class="nav-link" data-day="65">Day 65: Hard LR: Dense Stimuli, Abstract Answer Choices &amp; the Last Ten Questions</a>
+    <a href="day-066.html" class="nav-link" data-day="66">Day 66: Week 11 Synthesis: Full-Spectrum LR Mixed Drill (Untimed, Then Timed)</a>
+    <div class="nav-section-title">Week 12</div>
+    <a href="day-067.html" class="nav-link" data-day="67">Day 67: LR Section Anatomy: Difficulty Curve, Question Order &amp; First-Pass Strategy</a>
+    <a href="day-068.html" class="nav-link" data-day="68">Day 68: LR Trap-Library Consolidation I</a>
+    <a href="day-069.html" class="nav-link" data-day="69">Day 69: Weakest-Family Remediation (adaptive; default: assumption family)</a>
+    <a href="day-070.html" class="nav-link" data-day="70">Day 70: RC Maintenance: Humanities &amp; Social-Science Passages</a>
+    <a href="day-071.html" class="nav-link" data-day="71">Day 71: Application Strategy Checkpoint: Georgetown Evening, the DC IP Schools &amp; Registering for April</a>
+    <a href="day-072.html" class="nav-link" data-day="72">Day 72: Phase 2 Close: Two Timed LR Sections (LR Mastery Checkpoint)</a>
+    <div class="nav-section-title">Week 13</div>
+    <a href="day-073.html" class="nav-link" data-day="73">Day 73: Phase 2 Checkpoint Review: LR Accuracy by Type &amp; Timing Diagnosis</a>
+    <a href="day-074.html" class="nav-link" data-day="74">Day 74: RC Method: Active Reading, Low-Resolution Summaries &amp; the Passage Map</a>
+    <a href="day-075.html" class="nav-link" data-day="75">Day 75: RC Question-Type Taxonomy &amp; Where Each Answer Lives</a>
+    <a href="day-076.html" class="nav-link" data-day="76">Day 76: LR Maintenance I: Timed Mixed Half-Section + Error-Log Pass (light)</a>
+    <a href="day-077.html" class="nav-link" data-day="77">Day 77: RC Main Point, Primary Purpose &amp; Passage Organization (light)</a>
+    <a href="day-078.html" class="nav-link" data-day="78">Day 78: Week 13 Synthesis: Two Timed RC Passages + Map Review (light)</a>
+    <div class="nav-section-title">Week 14</div>
+    <a href="day-079.html" class="nav-link" data-day="79">Day 79: RC Detail &amp; Specific-Reference Questions: Going Back to the Text</a>
+    <a href="day-080.html" class="nav-link" data-day="80">Day 80: RC Inference: Supported vs Merely Plausible</a>
+    <a href="day-081.html" class="nav-link" data-day="81">Day 81: Author's Attitude, Tone &amp; Viewpoint Attribution</a>
+    <a href="day-082.html" class="nav-link" data-day="82">Day 82: LR Maintenance II: Timed Mixed Half-Section (light)</a>
+    <a href="day-083.html" class="nav-link" data-day="83">Day 83: Function &amp; "Why Does the Author Mention…" Questions</a>
+    <a href="day-084.html" class="nav-link" data-day="84">Day 84: Week 14 Synthesis: Timed RC Section #1</a>
+    <div class="nav-section-title">Week 15</div>
+    <a href="day-085.html" class="nav-link" data-day="85">Day 85: Analogy &amp; Application Questions</a>
+    <a href="day-086.html" class="nav-link" data-day="86">Day 86: Strengthen, Weaken &amp; Principle Questions in RC</a>
+    <a href="day-087.html" class="nav-link" data-day="87">Day 87: Comparative Passages I: Mapping the Relationship</a>
+    <a href="day-088.html" class="nav-link" data-day="88">Day 88: LR Maintenance III: Timed LR Section + Review</a>
+    <a href="day-089.html" class="nav-link" data-day="89">Day 89: Comparative Passages II: Agreement, Disagreement &amp; Cross-Passage Questions</a>
+    <a href="day-090.html" class="nav-link" data-day="90">Day 90: Week 15 Synthesis: Timed RC Section #2 (Comparative Focus)</a>
+    <div class="nav-section-title">Week 16</div>
+    <a href="day-091.html" class="nav-link" data-day="91">Day 91: Law Passages: Doctrine, Cases &amp; Legal Reasoning in RC</a>
+    <a href="day-092.html" class="nav-link" data-day="92">Day 92: Science &amp; Technology Passages: Using (and Not Over-Using) Your CS Background</a>
+    <a href="day-093.html" class="nav-link" data-day="93">Day 93: Humanities &amp; Social-Science Passages</a>
+    <a href="day-094.html" class="nav-link" data-day="94">Day 94: LR Maintenance IV: Timed LR Section + Review</a>
+    <a href="day-095.html" class="nav-link" data-day="95">Day 95: RC Trap Answers: Extreme, Out-of-Scope, Wrong Viewpoint &amp; Half-Right</a>
+    <a href="day-096.html" class="nav-link" data-day="96">Day 96: Week 16 Synthesis: Timed RC Section #3</a>
+    <div class="nav-section-title">Week 17</div>
+    <a href="day-097.html" class="nav-link" data-day="97">Day 97: RC Timing: Passage Order, the ~8:45 Budget &amp; When to Move On</a>
+    <a href="day-098.html" class="nav-link" data-day="98">Day 98: Hard Passages: Dense Abstraction, Unfamiliar Vocabulary &amp; Recovery</a>
+    <a href="day-099.html" class="nav-link" data-day="99">Day 99: RC Trap-Library Consolidation II</a>
+    <a href="day-100.html" class="nav-link" data-day="100">Day 100: LR Maintenance V: Timed LR Section + Review</a>
+    <a href="day-101.html" class="nav-link" data-day="101">Day 101: Weakest RC Type Remediation (adaptive; default: inference and viewpoint)</a>
+    <a href="day-102.html" class="nav-link" data-day="102">Day 102: Phase 3 Close: Three Timed Sections (LR, RC, LR), the First Full-Length Sitting Without an Experimental Section</a>
+    <div class="nav-section-title">Week 18</div>
+    <a href="day-103.html" class="nav-link" data-day="103">Day 103: Three-Section Review: The Full Blind-Review Protocol</a>
+    <a href="day-104.html" class="nav-link" data-day="104">Day 104: LR Pacing: Two-Pass Sections, Flag-and-Return &amp; the Skip Decision</a>
+    <a href="day-105.html" class="nav-link" data-day="105">Day 105: RC Pacing in Section Context: Allocating 35 Minutes Across Four Passages</a>
+    <a href="day-106.html" class="nav-link" data-day="106">Day 106: Timed Section Pair: 1 LR + 1 RC, Same-Day Review</a>
+    <a href="day-107.html" class="nav-link" data-day="107">Day 107: Stamina &amp; Focus: Section Transitions, the 10-Minute Break &amp; Resets</a>
+    <a href="day-108.html" class="nav-link" data-day="108">Day 108: Full PrepTest #1</a>
+    <div class="nav-section-title">Week 19</div>
+    <a href="day-109.html" class="nav-link" data-day="109">Day 109: PrepTest #1 Blind Review &amp; Error Log</a>
+    <a href="day-110.html" class="nav-link" data-day="110">Day 110: Targeted Remediation: Weakest LR Family (adaptive)</a>
+    <a href="day-111.html" class="nav-link" data-day="111">Day 111: Timed LR Section + Review</a>
+    <a href="day-112.html" class="nav-link" data-day="112">Day 112: Targeted Remediation: Weakest RC Type (adaptive)</a>
+    <a href="day-113.html" class="nav-link" data-day="113">Day 113: LSAT Argumentative Writing: Format, Prewriting &amp; a Practice Prompt</a>
+    <a href="day-114.html" class="nav-link" data-day="114">Day 114: Full PrepTest #2</a>
+    <div class="nav-section-title">Week 20</div>
+    <a href="day-115.html" class="nav-link" data-day="115">Day 115: PrepTest #2 Blind Review &amp; Error Log</a>
+    <a href="day-116.html" class="nav-link" data-day="116">Day 116: Assumption-Family Speed Drill (NA, SA, Strengthen, Weaken Under Time)</a>
+    <a href="day-117.html" class="nav-link" data-day="117">Day 117: Timed RC Section + Review</a>
+    <a href="day-118.html" class="nav-link" data-day="118">Day 118: Inference &amp; Principle Family Speed Drill</a>
+    <a href="day-119.html" class="nav-link" data-day="119">Day 119: Parallel &amp; Method Family Speed Drill: When to Skip Parallel</a>
+    <a href="day-120.html" class="nav-link" data-day="120">Day 120: Full PrepTest #3</a>
+    <div class="nav-section-title">Week 21</div>
+    <a href="day-121.html" class="nav-link" data-day="121">Day 121: PrepTest #3 Blind Review &amp; Trend Analysis</a>
+    <a href="day-122.html" class="nav-link" data-day="122">Day 122: Hard-Question Lab: The Last Eight LR Questions</a>
+    <a href="day-123.html" class="nav-link" data-day="123">Day 123: Timed LR Section + Review</a>
+    <a href="day-124.html" class="nav-link" data-day="124">Day 124: Hard-Passage Lab: The Hardest RC Passages in Your Log</a>
+    <a href="day-125.html" class="nav-link" data-day="125">Day 125: Go/No-Go: Keep April or Move to June (Before the Feb 25 Free-Change Deadline)</a>
+    <a href="day-126.html" class="nav-link" data-day="126">Day 126: Full PrepTest #4</a>
+    <div class="nav-section-title">Week 22</div>
+    <span class="nav-link nav-pending" data-day="127">Day 127: PrepTest #4 Blind Review <em>(coming soon)</em></span>
+    <span class="nav-link nav-pending" data-day="128">Day 128: Remediation Block 1 (adaptive; default: NA/SA) <em>(coming soon)</em></span>
+    <span class="nav-link nav-pending" data-day="129">Day 129: Timed Two-Section Set A (LR + RC) <em>(coming soon)</em></span>
+    <span class="nav-link nav-pending" data-day="130">Day 130: Set A Review + Timing Audit <em>(coming soon)</em></span>
+    <span class="nav-link nav-pending" data-day="131">Day 131: Remediation Block 2 (adaptive; default: RC inference and viewpoint) <em>(coming soon)</em></span>
+    <span class="nav-link nav-pending" data-day="132">Day 132: Full PrepTest #5 <em>(coming soon)</em></span>
+    <div class="nav-section-title">Week 23</div>
+    <span class="nav-link nav-pending" data-day="133">Day 133: PrepTest #5 Blind Review <em>(coming soon)</em></span>
+    <span class="nav-link nav-pending" data-day="134">Day 134: Remediation Block 3 (adaptive; default: comparative passages under time) <em>(coming soon)</em></span>
+    <span class="nav-link nav-pending" data-day="135">Day 135: Timed Two-Section Set B (LR + LR) <em>(coming soon)</em></span>
+    <span class="nav-link nav-pending" data-day="136">Day 136: Set B Review + Timing Audit <em>(coming soon)</em></span>
+    <span class="nav-link nav-pending" data-day="137">Day 137: Trap-Library Consolidation III: Cross-Section Patterns <em>(coming soon)</em></span>
+    <span class="nav-link nav-pending" data-day="138">Day 138: Full PrepTest #6 <em>(coming soon)</em></span>
+    <div class="nav-section-title">Week 24</div>
+    <span class="nav-link nav-pending" data-day="139">Day 139: PrepTest #6 Blind Review <em>(coming soon)</em></span>
+    <span class="nav-link nav-pending" data-day="140">Day 140: Remediation Block 4 (adaptive; default: Flaw and Method) <em>(coming soon)</em></span>
+    <span class="nav-link nav-pending" data-day="141">Day 141: Timed Two-Section Set C (RC + LR) <em>(coming soon)</em></span>
+    <span class="nav-link nav-pending" data-day="142">Day 142: Set C Review + Timing Audit <em>(coming soon)</em></span>
+    <span class="nav-link nav-pending" data-day="143">Day 143: Remediation Block 5 (adaptive; default: hard science and law passages) <em>(coming soon)</em></span>
+    <span class="nav-link nav-pending" data-day="144">Day 144: Full PrepTest #7 <em>(coming soon)</em></span>
+    <div class="nav-section-title">Week 25</div>
+    <span class="nav-link nav-pending" data-day="145">Day 145: PrepTest #7 Blind Review <em>(coming soon)</em></span>
+    <span class="nav-link nav-pending" data-day="146">Day 146: Remediation Block 6 (adaptive; default: Strengthen, Weaken, Evaluate) <em>(coming soon)</em></span>
+    <span class="nav-link nav-pending" data-day="147">Day 147: Timed Two-Section Set D (LR + RC) <em>(coming soon)</em></span>
+    <span class="nav-link nav-pending" data-day="148">Day 148: Set D Review + Timing Audit <em>(coming soon)</em></span>
+    <span class="nav-link nav-pending" data-day="149">Day 149: Full-Curriculum Synthesis: The Master Trap Library <em>(coming soon)</em></span>
+    <span class="nav-link nav-pending" data-day="150">Day 150: Full PrepTest #8 <em>(coming soon)</em></span>
+    <div class="nav-section-title">Week 26</div>
+    <span class="nav-link nav-pending" data-day="151">Day 151: PrepTest #8 Blind Review <em>(coming soon)</em></span>
+    <span class="nav-link nav-pending" data-day="152">Day 152: Remediation Block 7 (adaptive; default: RC function and structure) <em>(coming soon)</em></span>
+    <span class="nav-link nav-pending" data-day="153">Day 153: Timed Two-Section Set E (LR + LR) <em>(coming soon)</em></span>
+    <span class="nav-link nav-pending" data-day="154">Day 154: Set E Review + Timing Audit <em>(coming soon)</em></span>
+    <span class="nav-link nav-pending" data-day="155">Day 155: Remediation Block 8 (adaptive; default: Parallel and Principle) <em>(coming soon)</em></span>
+    <span class="nav-link nav-pending" data-day="156">Day 156: Full PrepTest #9 <em>(coming soon)</em></span>
+    <div class="nav-section-title">Week 27</div>
+    <span class="nav-link nav-pending" data-day="157">Day 157: PrepTest #9 Blind Review <em>(coming soon)</em></span>
+    <span class="nav-link nav-pending" data-day="158">Day 158: LR Final Polish: Your Five Highest-Yield Types <em>(coming soon)</em></span>
+    <span class="nav-link nav-pending" data-day="159">Day 159: RC Final Polish: Your Passage Map Under Pressure <em>(coming soon)</em></span>
+    <span class="nav-link nav-pending" data-day="160">Day 160: Test-Day Logistics: Prometric Booking, ID, Check-in &amp; the Writing Window <em>(coming soon)</em></span>
+    <span class="nav-link nav-pending" data-day="161">Day 161: Light Timed Set: One LR + One RC Section <em>(coming soon)</em></span>
+    <span class="nav-link nav-pending" data-day="162">Day 162: Final Full PrepTest #10 <em>(coming soon)</em></span>
+    <div class="nav-section-title">Week 28</div>
+    <span class="nav-link nav-pending" data-day="163">Day 163: PrepTest #10 Review (Light, Confidence-Focused) <em>(coming soon)</em></span>
+    <span class="nav-link nav-pending" data-day="164">Day 164: LSAT Argumentative Writing: Complete It This Week <em>(coming soon)</em></span>
+    <span class="nav-link nav-pending" data-day="165">Day 165: Confidence Set: Short Timed Drill From Mastered Types <em>(coming soon)</em></span>
+    <span class="nav-link nav-pending" data-day="166">Day 166: Final Synthesis: One-Page Method Sheets (LR + RC) <em>(coming soon)</em></span>
+    <span class="nav-link nav-pending" data-day="167">Day 167: The Day Before: Rest Protocol &amp; Check-in Checklist <em>(coming soon)</em></span>
+    <span class="nav-link nav-pending" data-day="168">Day 168: Test Day, Score Release (Apr 28) &amp; What Comes Next <em>(coming soon)</em></span>
+  </aside>
+  <main class="main-viewport">
+    <div class="content-wrapper reading">
+      <div class="day-meta">
+        <span class="pill pill-orange">Day 115 / 168</span>
+        <span class="pill pill-blue">Week 20 of 28</span>
+        <span class="pill pill-green">Phase 4: Integration + Timed Sections</span>
+      </div>
+      <h1 class="hero-title">PrepTest #2 Blind Review &amp; Error Log</h1>
+      <div class="reading-meta">&#128337; ~120 min &middot; Archetype E &mdash; Review / Trap Analysis</div>
+      <div id="tracker"></div>
+
+
+      <section class="doc-section" id="recap">
+        <h2 class="section-heading">PrepTest #2 Blind Review &amp; Error Log</h2>
+        <div class="card card-accent">
+          <p>Full blind review, plus the first real trend line: diagnostic, PT1, PT2. Three points start to show a genuine trajectory rather than a single snapshot.</p>
+        </div>
+      </section>
+
+      <div class="card" style="border-color: var(--accent-orange);">
+        <p><em>Practice items on this page are curriculum-authored in LSAT style; they are not official LSAC questions. Real drilling happens on LawHub — see the assignment below.</em></p>
+      </div>
+
+        <div class="scenario-card">
+          <p class="scenario-question"><strong>Q1.</strong> Diagnostic 155, PT1 159, PT2 158. Is this concerning?</p>
+          <div class="scenario-options" id="opts-d115q1">
+            <div class="scenario-option">A. Yes, definitely regressing</div>
+            <div class="scenario-option">B. Not necessarily — individual PT scores have natural variance; the trend across the diagnostic and both PTs is still upward overall</div>
+            <div class="scenario-option">C. It means you should stop studying</div>
+            <div class="scenario-option">D. It means switch to June immediately</div>
+          </div>
+          <button class="scenario-reveal-btn" onclick="revealAnswer('d115q1', 1)">Reveal Answer</button>
+          <div class="scenario-explanation" id="exp-d115q1"><strong>Correct answer: B.</strong> A one-point dip between two PTs, within an overall upward trend, is normal test-to-test variance, not a real regression — don't overreact to any single data point.</div>
+        </div>
+
+      <section class="doc-section" id="preview"><div class="card card-purple"><p>Tomorrow: an assumption-family speed drill, tightening pacing on NA/SA/Strengthen/Weaken specifically under time pressure.</p></div></section>
+
+
+      <div class="day-nav">
+        <a href="day-114.html">&larr; Day 114: Full PrepTest #2</a>
+        <button class="btn btn-green" onclick="markComplete(115, 'day-116.html')">Mark Day 115 Complete &rarr;</button>
+        <a href="day-116.html">Day 116: Assumption-Family Speed Drill (NA, SA, Strengthen, Weaken Under Time) &rarr;</a>
+      </div>
+    </div>
+  </main>
+</div>
+<script src="../assets/app.js"></script>
+<script>renderTracker('tracker', 115);</script>
+</body>
+</html>
