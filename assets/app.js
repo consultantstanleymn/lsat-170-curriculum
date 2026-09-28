@@ -447,11 +447,28 @@ function renderPerfPanel() {
   `;
 }
 
+function initSectionReveal() {
+  const sections = document.querySelectorAll('.doc-section');
+  if (!sections.length) return;
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches || !('IntersectionObserver' in window)) return;
+  sections.forEach((s) => s.classList.add('reveal-init'));
+  const obs = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('reveal-visible');
+        obs.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.08, rootMargin: '0px 0px -60px 0px' });
+  sections.forEach((s) => obs.observe(s));
+}
+
 function initReadingTools() {
   applyTheme(getTheme());
   applyScale(getScale());
   ensureMobileControls();
   enhanceTables();
+  initSectionReveal();
   initResumeReading();
   initTocScrollSpy();
   initBackToTop();

@@ -1147,3 +1147,48 @@ select.jump-select {
     transition: none;
   }
 }
+
+/* ==== Motion graphics pass ==== */
+
+header.topbar { position: sticky; overflow: visible; }
+header.topbar::after {
+  content: '';
+  position: absolute;
+  left: 0; right: 0; bottom: -1px;
+  height: 2px;
+  background: linear-gradient(90deg, var(--accent-orange), var(--accent-blue), var(--accent-purple), var(--accent-green), var(--accent-orange));
+  background-size: 300% 100%;
+  animation: topbarShimmer 14s linear infinite;
+  opacity: 0.7;
+}
+@keyframes topbarShimmer { 0% { background-position: 0% 0; } 100% { background-position: 300% 0; } }
+
+.doc-section.reveal-init { opacity: 0; transform: translateY(20px); transition: opacity 650ms var(--ease), transform 650ms var(--ease); }
+.doc-section.reveal-visible { opacity: 1; transform: none; }
+
+.card, .scenario-card {
+  transition: transform 220ms var(--ease), box-shadow 220ms var(--ease), border-color 200ms var(--ease);
+}
+.card:hover, .scenario-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 16px 36px -18px rgba(0, 0, 0, 0.4);
+  border-color: var(--accent-blue);
+}
+
+.btn-green {
+  animation: ctaGlow 3.4s ease-in-out infinite;
+}
+@keyframes ctaGlow {
+  0%, 100% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--accent-green) 45%, transparent); }
+  50% { box-shadow: 0 0 0 6px color-mix(in srgb, var(--accent-green) 0%, transparent); }
+}
+
+.pill {
+  transition: transform 180ms var(--ease);
+}
+.pill:hover { transform: translateY(-1px); }
+
+@media (prefers-reduced-motion: reduce) {
+  header.topbar::after { animation: none; }
+  .btn-green { animation: none; }
+}
